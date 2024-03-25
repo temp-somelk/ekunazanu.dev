@@ -1,0 +1,98 @@
+/* svg {transform-box: fill-box;} */
+
+#dieCircDot1 {animation: dieAnimSchrodinger linear infinite paused 0.5s;}
+#dieCircDot2 {animation: dieAnimSchrodinger linear infinite paused 1s;}
+#dieCircDot3 {animation: dieAnimSchrodinger linear infinite paused 0.5s 0.25s;}
+#dieCircDot4 {animation: dieAnimSchrodinger linear infinite paused 1s;}
+#dieCircDot5 {animation: dieAnimSchrodinger linear infinite paused 0.5s;}
+#dieSVG:hover circle {animation-play-state: running;}
+@keyframes dieAnimSchrodinger {50% {opacity: 0;}}
+
+#rotationLineNum1 {transform-origin: center center; animation: rotationAnimSpin linear infinite paused 20s;}
+#rotationCircNum1 {transform-origin: center center; animation: rotationAnimSpin linear infinite paused 20s;}
+#rotationLineNum2 {transform-origin: center center; animation: rotationAnimSpin linear infinite paused 10s;}
+#rotationCircNum2 {transform-origin: center center; animation: rotationAnimSpin linear infinite paused 10s;}
+#rotationSVG:hover > circle, #rotationSVG:hover > line {animation-play-state: running;}
+@keyframes rotationAnimSpin {0% {transform: rotate(360deg);} 100% {transform: rotate(0deg);}}
+
+#colorsPathRd {animation: colorsAnimFlash step-end infinite paused 2s;}
+#colorsPathGn {animation: colorsAnimFlash step-end infinite paused 4s;}
+#colorsPathBl {animation: colorsAnimFlash step-end infinite paused 8s;}
+#colorsSVG:hover > path {animation-play-state: running;}
+@keyframes colorsAnimFlash {50% {opacity: 0.3;}}
+
+#spotifyCirc1  {animation: spotifyAnimBubbleUD linear infinite paused 10s;}
+#spotifyCirc2  {animation: spotifyAnimBubbleDR linear infinite paused 11s;}
+#spotifyCirc3  {animation: spotifyAnimBubbleDR linear infinite paused 12s;}
+#spotifyCirc4  {animation: spotifyAnimBubbleUD linear infinite paused 13s;}
+#spotifyCirc5  {animation: spotifyAnimBubbleUD linear infinite paused 14s;}
+#spotifyCirc6  {animation: spotifyAnimBubbleLR linear infinite paused 15s;}
+#spotifyCirc7  {animation: spotifyAnimBubbleDR linear infinite paused 16s;}
+#spotifyCirc8  {animation: spotifyAnimBubbleUR linear infinite paused 17s;}
+#spotifyCirc9  {animation: spotifyAnimBubbleLR linear infinite paused 18s;}
+#spotifyCirc10 {animation: spotifyAnimBubbleUD linear infinite paused 19s;}
+#spotifyCirc11 {animation: spotifyAnimBubbleUD linear infinite paused 20s;}
+#spotifyCirc12 {animation: spotifyAnimBubbleUR linear infinite paused 11s;}
+#spotifyCirc13 {animation: spotifyAnimBubbleLR linear infinite paused 12s;}
+#spotifyCirc14 {animation: spotifyAnimBubbleDR linear infinite paused 13s;}
+#spotifySVG:hover circle {animation-play-state: running;}
+@keyframes spotifyAnimBubbleLR {50% {transform: translate(2.5rem, 0);}}
+@keyframes spotifyAnimBubbleUD {50% {transform: translate(0, 2.5rem);}}
+@keyframes spotifyAnimBubbleDR {50% {transform: translate(2.5rem, 2.5rem);}}
+@keyframes spotifyAnimBubbleUR {50% {transform: translate(2.5rem, -2.5rem);}}
+
+#bitsPathL1 {animation: bitsAnimStream linear infinite paused 2s;}
+#bitsPathL2 {animation: bitsAnimStream linear infinite paused 0.5s;}
+#bitsPathL3 {animation: bitsAnimStream linear infinite paused 1.5s;}
+#bitsPathL4 {animation: bitsAnimStream linear infinite paused 2s;}
+#bitsPathL5 {animation: bitsAnimStream linear infinite paused 1s;}
+#bitsPathL6 {animation: bitsAnimStream linear infinite paused 1.5s;}
+#bitsPathL7 {animation: bitsAnimStream linear infinite paused 2s;}
+#bitsPathL8 {animation: bitsAnimStream linear infinite paused 1s;}
+#bitsPathL9 {animation: bitsAnimStream linear infinite paused 1.5s;}
+#bitsSVG:hover path {animation-play-state: running;}
+@keyframes bitsAnimStream {100% {transform: translate(-2.5rem);}}
+
+#airwavesPathParticle23 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -4.2s;}
+#airwavesPathParticle22 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -4.0s;}
+#airwavesPathParticle21 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -3.8s;}
+#airwavesPathParticle1  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -3.6s;}
+#airwavesPathParticle2  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -3.4s;}
+#airwavesPathParticle3  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -3.2s;}
+#airwavesPathParticle4  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -3.0s;}
+#airwavesPathParticle5  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -2.8s;}
+#airwavesPathParticle6  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -2.6s;}
+#airwavesPathParticle7  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -2.4s;}
+#airwavesPathParticle8  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -2.2s;}
+#airwavesPathParticle9  {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -2.0s;}
+#airwavesPathParticle10 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -1.8s;}
+#airwavesPathParticle11 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -1.6s;}
+#airwavesPathParticle12 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -1.4s;}
+#airwavesPathParticle13 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -1.2s;}
+#airwavesPathParticle14 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -1.0s;}
+#airwavesPathParticle15 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -0.8s;}
+#airwavesPathParticle16 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -0.6s;}
+#airwavesPathParticle17 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -0.4s;}
+#airwavesPathParticle18 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s -0.2s;}
+#airwavesPathParticle19 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s  0.0s;}
+#airwavesPathParticle20 {animation: airwavesAnimPropagate ease-in-out infinite paused 4s  0.1s;}
+#airwavesPathWave {animation: airwavesAnimMove linear infinite paused 4s;}
+#airwavesSVG:hover path {animation-play-state: running;}
+@keyframes airwavesAnimPropagate {50% {transform: translate(1.5rem, 0);}}
+@keyframes airwavesAnimMove {100% {transform: translate(12rem, 0);}}
+
+#wordsGroup1 {animation: wordsAnimBlink step-start infinite paused 1.6s 0s;}
+#wordsGroup2 {animation: wordsAnimBlink step-start infinite paused 1.6s 0.2s;}
+#wordsGroup3 {animation: wordsAnimBlink step-start infinite paused 1.6s 0.4s;}
+#wordsGroup4 {animation: wordsAnimBlink step-start infinite paused 1.6s 0.6s;}
+#wordsGroup5 {animation: wordsAnimBlink step-start infinite paused 1.6s 0.8s;}
+#wordsGroup6 {animation: wordsAnimBlink step-start infinite paused 1.6s 1.0s;}
+#wordsGroup7 {animation: wordsAnimBlink step-start infinite paused 1.6s 1.2s;}
+#wordsGroup8 {animation: wordsAnimBlink step-start infinite paused 1.6s 1.4s;}
+#wordsSVG:hover g {animation-play-state: running;}
+@keyframes wordsAnimBlink {20% {fill: #d76;}}
+
+#latticePathDotsFG  {transform-origin: center center; animation: latticeAnimSomething ease-in-out infinite paused 4s;}
+#latticeSVG:hover > path {animation-play-state: running;}
+@keyframes latticeAnimSomething {50% {transform: skew(-5deg, 0) scale(1.1);}}
+

@@ -1,0 +1,11 @@
+<svg id="latticeSVG" viewBox="0 0 200 150" fill="none" width="1200px" height="900px">
+<desc>Two orthogonal basis vectors centered on a square lattice grid.</desc>
+<rect id="latticeBG" fill="#404" x="0" y="0" width="200" height="150" />
+<path id="latticePathDotsBG" stroke="#747" stroke-width="2" stroke-dasharray="2 12" d="M9 5 H200M2 19 H200M9 33 H200M2 47 H200M9 61 H200M2 75 H200M9 89 H200M2 103 H200M9 117 H200M2 131 H200M9 145 H200" />
+<path id="latticePathDotsFG" stroke="#b9b" stroke-width="2" stroke-dasharray="2 12" d="M9 5 H200M2 19 H200M9 33 H200M2 47 H200M9 61 H200M2 75 H200M9 89 H200M2 103 H200M9 117 H200M2 131 H200M9 145 H200" />
+<line id="latticeLineXBase" stroke="#ff9" stroke-width="2" x1="100" y1="75" x2="114" y2="75" />
+<line id="latticeLineYBase" stroke="#f66" stroke-width="2" x1="100" y1="75" x2="107" y2="61" />
+<circle id="latticeCircXBase" fill="#ff9" cx="114" cy="75" r="3" />
+<circle id="latticeCircYBase" fill="#f66" cx="107" cy="61" r="3" />
+<circle id="latticeCircCntr" fill="#fff" cx="100" cy="75" r="4" />
+</svg>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content%}
+<main>
+    <!-- use section.lab.html for gallery template -->
+    <img alt="{{ page.extra.thumbnailalt }}" src="{{ config.base_url }}{{ page.extra.thumbnail }}">
+    <div class="picinfo">
+    <strong>{{ page.title }}</strong><br>
+    {{ page.content | safe }}
+    {% if page.extra.mine %} &copy Anchit Roy &middot; <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a><br> {% endif %}
+    <a href="{{ page.extra.imgsrc }}">Source</a> &middot; <a href="{{ config.base_url }}/media">All media</a>
+    </div>
+</main>
+{% endblock content %}
