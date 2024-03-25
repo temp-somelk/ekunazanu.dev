@@ -1,0 +1,24 @@
+<svg id="spotifySVG" viewBox="0 0 200 150" fill="none" width="1200px" height="900px">
+<desc>Spotify logo centered among a lot of green bubbles bubbles.</desc>
+<rect id="spotifyBG" fill="#fff" x="0" y="0" width="200" height="150" />
+<g id="spotifyGroupCircles" fill="#bc06">
+<circle id="spotifyCirc1"  cx="18"  cy="25"  r="12" />
+<circle id="spotifyCirc2"  cx="37"  cy="50"  r="18" />
+<circle id="spotifyCirc3"  cx="112" cy="125" r="13" />
+<circle id="spotifyCirc4"  cx="88"  cy="112" r="8" />
+<circle id="spotifyCirc5"  cx="162" cy="113" r="30" />
+<circle id="spotifyCirc6"  cx="25"  cy="125" r="20" />
+<circle id="spotifyCirc7"  cx="125" cy="37"  r="15" />
+<circle id="spotifyCirc8"  cx="88"  cy="137" r="25" />
+<circle id="spotifyCirc9"  cx="63"  cy="25"  r="20" />
+<circle id="spotifyCirc10" cx="0"   cy="88"  r="40" />
+<circle id="spotifyCirc11" cx="137" cy="25"  r="45" />
+<circle id="spotifyCirc12" cx="188" cy="150" r="45" />
+<circle id="spotifyCirc13" cx="200" cy="50"  r="35" />
+<circle id="spotifyCirc14" cx="0"   cy="0"   r="25" />
+<circle id="spotifyCircMain" fill="#bc0c" cx="100" cy="75" r="50" />
+</g>
+<path id="spotifyLine1" stroke="#000" stroke-width="8" stroke-linecap="round" d="M 76 61 C 91 55 119 62 126 70" />
+<path id="spotifyLine2" stroke="#000" stroke-width="7" stroke-linecap="round" d="M 78 74 C 89 70 113 75 121 82" />
+<path id="spotifyLine3" stroke="#000" stroke-width="6" stroke-linecap="round" d="M 81 87 C 88 85 103 85 113 93" />
+</svg>
