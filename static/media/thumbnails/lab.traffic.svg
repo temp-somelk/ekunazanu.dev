@@ -1,0 +1,16 @@
+<svg id="trafficSVG" viewBox="0 0 200 150" fill="none" width="1200px" height="900px">
+<desc>Red, green and blue lines representing a screen.</desc>
+<rect id="trafficBG" fill="#fda" x="0" y="0" width="200" height="150" />
+<rect id="trafficRectRoad" fill="#055" x="0" y="100" width="200" height="50" />
+<path id="trafficPathDivL" fill="#fff" d="M 130 150 V 100 H 125 L 117 150 Z" />
+<path id="trafficPathDivR" fill="#fff" d="M 137 150 V 100 H 142 L 150 150 Z" />
+<path id="trafficPathBar" stroke="#fa0" stroke-width="6" d="M 167 150 L 167 50 Q 167 33 150 33 L 84 33" />
+<rect id="trafficRectBox1" fill="#000" x="157" y="73" width="20" height="54" rx="5" />
+<rect id="trafficRectBox2" fill="#000" x="57"  y="23" width="54" height="20" rx="5" />
+<circle id="trafficCircRd1" fill="#c52" cx="167" cy="84"  r="6" />
+<circle id="trafficCircYl1" fill="#eb1" cx="167" cy="100" r="6" />
+<circle id="trafficCircGn1" fill="#8d5" cx="167" cy="116" r="6" />
+<circle id="trafficCircRd2" fill="#c52" cx="68"  cy="33"  r="6" />
+<circle id="trafficCircYl2" fill="#eb1" cx="84"  cy="33"  r="6" />
+<circle id="trafficCircGn2" fill="#8d5" cx="100" cy="33"  r="6" />
+</svg>
